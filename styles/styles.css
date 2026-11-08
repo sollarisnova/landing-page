@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+                        /* HEADER */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+.header-logo-dog {
+    width: 50px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+}
+
+                        /* COMMON */
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #F9FAF8;
+}
