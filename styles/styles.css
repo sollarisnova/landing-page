@@ -13,11 +13,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 150px;
+    padding: 10px 150px;
 }
 
 .header-logo-dog {
+    width: 30px;
+}
+
+.circle-around-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
     width: 50px;
+    height: 50px;
 }
 
 .header-links {
@@ -25,8 +35,31 @@ body {
     gap: 20px;
 }
 
-.header-links a {
+                        /* HERO 1 */
+
+.hero-1 {
+    background-color: #1F2937;
+    padding: 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.left-hero-1 {
+    flex-grow: 1;
+}
+
+.right-hero-1 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-hero-1 img{
+    width: 300px;
+}
+
 
                         /* COMMON */
 
