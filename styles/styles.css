@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    padding: 0px;
-    margin: 0px;
     font-family: Roboto;
 }
+
+
 
                         /* HEADER */
 
@@ -41,16 +46,30 @@ body {
     background-color: #1F2937;
     padding: 150px 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 240px;
 }
 
 .left-hero-1 {
-    flex-grow: 1;
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-hero-1 button{
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 110px;
 }
 
 .right-hero-1 {
-    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +78,84 @@ body {
 .right-hero-1 img{
     width: 300px;
 }
+
+                        /* HERO 2 */
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+
+div h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards-hero-2 {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.hero-2 img {
+    width: 120px;
+    height: 120px;
+}
+
+.cards-hero-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    gap: 30px;
+    flex: 0;
+}
+
+                        /* HERO 3 */
+
+
+.hero-3 {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+.hero-3 blockquote {
+    font-size: 36px;
+    font-style: italic;
+    width: 1000px;
+    text-align: center;
+}
+
+.hero-3 p {
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
 
 
                         /* COMMON */
